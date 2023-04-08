@@ -1,8 +1,6 @@
-import { ReactHTML } from "react";
-
 declare module "noclassname" {
   const noClassname: {
-    [key: keyof React.ReactHTML]: ReactHTML;
+    [key in keyof JSX.IntrinsicElements]: any;
   };
   export default noClassname;
 }
