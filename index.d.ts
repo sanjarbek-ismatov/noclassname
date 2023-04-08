@@ -1,6 +1,6 @@
 declare module "noclassname" {
-  const noClassname: {
+  const styled: {
     [key in keyof JSX.IntrinsicElements]: any;
   };
-  export default noClassname;
+  export default styled;
 }
