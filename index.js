@@ -3,7 +3,8 @@ const Handler = {
   get(target, prop) {
     return (segment, ...args) => {
       const cleanedStyles = csstoJsx(segment);
-      return () => React.createElement(prop, { style: cleanedStyles }, "Salom");
+      return (props) =>
+        React.createElement(prop, { style: cleanedStyles }, props?.children);
     };
   },
 };

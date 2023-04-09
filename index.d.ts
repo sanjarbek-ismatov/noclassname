@@ -3,7 +3,7 @@ declare module "noclassname" {
     [key in keyof JSX.IntrinsicElements]: (
       segment: TemplateStringsArray,
       ...args: string[]
-    ) => JSX.Element;
+    ) => () => JSX.Element;
   };
   export default styled;
 }
