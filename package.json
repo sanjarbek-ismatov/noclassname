@@ -1,6 +1,6 @@
 {
   "name": "noclassname",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Create component without classnames",
   "main": "index.js",
   "types": "index.d.ts",
@@ -11,7 +11,11 @@
   "keywords": [
     "CSS",
     "utility",
-    "classless"
+    "classless",
+    "React",
+    "jsx",
+    "tsx",
+    "styled-components"
   ],
   "author": {
     "name": "Sanjarbek Ismatov",
