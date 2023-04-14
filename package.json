@@ -1,6 +1,6 @@
 {
   "name": "noclassname",
-  "version": "1.7.1",
+  "version": "2.0.0",
   "description": "Create component without classnames",
   "main": "index.js",
   "types": "index.d.ts",
